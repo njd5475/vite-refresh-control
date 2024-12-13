@@ -1,3 +1,15 @@
+## <small>6.0.4 (2024-12-13)</small>
+
+* chore: better validation error message for dts build (#18948) ([63b82f1](https://github.com/vitejs/vite/commit/63b82f1e29a00d06a82144fd03ea8d6eff114290)), closes [#18948](https://github.com/vitejs/vite/issues/18948)
+* chore(deps): update all non-major dependencies (#18916) ([ef7a6a3](https://github.com/vitejs/vite/commit/ef7a6a35e6827b92445e5a0c2c0022616efc80dd)), closes [#18916](https://github.com/vitejs/vite/issues/18916)
+* fix: `this.resolve` skipSelf should not skip for different `id` or `import` (#18903) ([4727320](https://github.com/vitejs/vite/commit/472732057cb2273908e1fca8aa7dc18a7e1f7c74)), closes [#18903](https://github.com/vitejs/vite/issues/18903)
+* fix: merge client and ssr values for `pluginContainer.getModuleInfo` (#18895) ([258cdd6](https://github.com/vitejs/vite/commit/258cdd637d1ee80a3c4571685135e89fe283f3a6)), closes [#18895](https://github.com/vitejs/vite/issues/18895)
+* refactor: simplify manifest plugin code (#18890) ([1bfe21b](https://github.com/vitejs/vite/commit/1bfe21b9440f318c940f90e425a18588595225fd)), closes [#18890](https://github.com/vitejs/vite/issues/18890)
+* test: test `ModuleRunnerTransport` `invoke` API (#18865) ([e5f5301](https://github.com/vitejs/vite/commit/e5f5301924b775837b2a1253c37f76555bce3e3e)), closes [#18865](https://github.com/vitejs/vite/issues/18865)
+* test: test output hash changes (#18898) ([bfbb130](https://github.com/vitejs/vite/commit/bfbb130fccefbe7e3880f09defb4fceacce39481)), closes [#18898](https://github.com/vitejs/vite/issues/18898)
+
+
+
 ## <small>6.0.3 (2024-12-05)</small>
 
 * fix: handle postcss load unhandled rejections (#18886) ([d5fb653](https://github.com/vitejs/vite/commit/d5fb653c15903ccf84a093f212da86f0327a9a6f)), closes [#18886](https://github.com/vitejs/vite/issues/18886)
